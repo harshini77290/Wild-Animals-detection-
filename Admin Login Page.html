@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">
+    <title>Admin Login Page</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="emblem centered-div">
+            <img src="Images\national emblem.png" alt="National Emblem">
+        </div>
+        <div class="centered-div">
+            <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INDIAN FOREST SERVICE</h1>
+        </div>
+        <div class="wildlifelogo centered-div">
+            <img src="Images\480px-IFS-Black_Ultra-HD(1).jpg" alt="Wildlife Logo">
+        </div>
+    </header>
+    <main>
+        <center>
+            <form id="loginForm" onsubmit="validateForm(); return false;">
+                <h2>Login</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter Username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+                <button class="submit" type="submit">Login</button>
+            </form>
+        </center>
+    </main>
+
+</body>
+
+</html>

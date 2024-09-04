@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    height: 15vh;
+    background-color: #ffffff;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around; /* Adjust spacing as needed */
+    border-bottom: 3px solid black;
+    margin-bottom: 50px;
+}
+
+
+
+
+.centered-div {
+    text-align: center;
+}
+
+
+.emblem img {
+    width: 60px; /* Adjust the width for the emblem image */
+    height: 100px;
+}
+
+.wildlifelogo img {
+    width: 110px;
+    height: 110px;
+    opacity: 0.9;
+}
+
+h1 {
+    font-family:'Open Sans','san-sarif';
+    font-size: 45px!important;
+    font-weight: 800;
+    padding-top: 5%;
+    margin: 0; /* Remove default margin for h1 */
+    color: #297709
+}
+
+
+main img{
+    width: 100%;
+    height: auto;
+    background-image: url(tiger.jpg);
+    opacity: 0.5;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flex-container p {
+    margin-right: 10px; /* Adjust the margin as needed */
+    
+}
+a{
+    background-color: rgb(175, 175, 213);
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 5px;
+
+}
+
+
+form {
+    
+    background-color: lavender;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 25px 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    width: 50%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.submit {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
